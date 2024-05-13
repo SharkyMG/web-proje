@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RentCar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="images/logo.jpg" alt="logo"/>
+        </a>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#cars">Cars</a>
+            <a href="#staff">Staff</a>
+            <a href="#review">Review</a>
+            <a href="#contact">Contact</a>
+            <a href="#blogs">Blogs</a>
+        </nav>
+        <div class="buttons">
+            <button id="search-btn">
+                <i class="fas fa-search"></i>             
+            </button>
+            <button id="cart-btn">
+                <i class="fas fa-shopping-cart"></i>             
+            </button>
+            <button id="menu-btn">
+                <i class="fas fa-bars"></i>             
+            </button>           
+        </div>
+        <div class="search-form">
+            <input type="text" class="search-input" id="search-box" placeholder="search here..">
+            <i class="fas fa-search"></i>
+        </div>
+        <div class="cart-items-container">
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="images/car-1.jpg" alt="car">
+                <div class="content">
+                    <h3>rented car</h3>
+                    <div class="price">$199.90/-</div>
+                </div>
+
+            </div>
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="images/cart-2.png" alt="cart">
+                <div class="content">
+                    <h3>insurance</h3>
+                    <div class="price">$29.90/-</div>
+                </div>
+
+            </div>
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="images/cart-3.png" alt="cart">
+                <div class="content">
+                    <h3>wheel pump</h3>
+                    <div class="price">$24.90/-</div>
+                </div>
+
+            </div>
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="images/cart-4.png" alt="cart">
+                <div class="content">
+                    <h3>luxury cars waitlist</h3>
+                    <div class="price">$49.90/-</div>
+                </div>
+
+            </div>
+            <a href="#" class="btn">checkout now</a>
+        </div>
+    </header>
+
+    <section class="home" id="home">
+    <div class="content">
+        <h3>RENT "THE" CAR</h3>
+        <p>Welcome to RentCar, your premier destination for hassle-free car rentals. Whether you're embarking on a cross-country road trip, need a reliable ride for your business travels, or simply require a temporary vehicle for daily errands, we've got you covered.           
+        </p>
+        <a href="#" class="btn">Start Renting</a>
+    </div>
+    </section>
+
+    <section class="cars" id="cars">
+        <h1 class="heading">our <span>cars</span></h1>
+        <div class="box-container">
+            <div class="box">
+             <div class="box-head">
+                <img src="images/car-1.jpg" alt="car">
+                <span class="car-category">SEDAN</span>
+                <h3>Mercedes E-Class</h3>
+                <div class="price">$199.90 <span>/Daily</span></div>
+             </div>
+             <div class="box-bottom">
+                <a href="#" class="btn">add to cart</a>
+             </div>     
+            </div>
+            <div class="box">
+                <div class="box-head">
+                   <img src="images/car-2.jpg" alt="car">
+                   <span class="car-category">CABRIO</span>
+                   <h3>Porsche 911 Carrera</h3>
+                   <div class="price">$274.90 <span>/Daily</span></div>
+                </div>
+                <div class="box-bottom">
+                   <a href="#" class="btn">add to cart</a>
+                </div>     
+               </div>           
+               <div class="box">
+                <div class="box-head">
+                   <img src="images/car-3.jpg" alt="car">
+                   <span class="car-category">SUV</span>
+                   <h3>Audi RS5</h3>
+                   <div class="price">$219.90 <span>/Daily</span></div>
+                </div>
+                <div class="box-bottom">
+                   <a href="#" class="btn">add to cart</a>
+                </div>     
+               </div>           
+               <div class="box">
+                <div class="box-head">
+                   <img src="images/car-4.jpg" alt="car">
+                   <span class="car-category">OFF-ROAD</span>
+                   <h3>Mercedes X-Class</h3>
+                   <div class="price">$224.90 <span>/Daily</span></div>
+                </div>
+                <div class="box-bottom">
+                   <a href="#" class="btn">add to cart</a>
+                </div>     
+               </div>                      
+        </div>
+    </section>
+
+    <section class="staff" id="staff">
+        <h1 class="heading">our <span>staff</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">CEO</span>
+                    <a href="#" class="name">Mustafa Güçlü</a>
+                </div>
+                <div class="image">
+                    <img src="images/ceo.png" alt="CEO">
+                </div>
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="tel">+1 (640) 727-3847</b>
+                        <span class="uni">ODTU / Department Of Business</span>
+                    </div>
+                    <div class="product-btn">
+                        <a href="#">
+                            <i class="fas fa-phone"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">MANAGER</span>
+                    <a href="#" class="name">Miranda Scott</a>
+                </div>
+                <div class="image">
+                    <img src="images/manager.png" alt="Manager">
+                </div>
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="tel">+1 (389) 739-1892</b>
+                        <span class="uni">LA Uni / Management </span>
+                    </div>
+                    <div class="product-btn">
+                        <a href="#">
+                            <i class="fas fa-phone"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">SALESMAN</span>
+                    <a href="#" class="name">Markus Reed</a>
+                </div>
+                <div class="image">
+                    <img src="images/salesman.png" alt="Salesman">
+                </div>
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="tel">+1 (992) 417-1475</b>
+                        <span class="uni">Colorado Uni / Sales </span>
+                    </div>
+                    <div class="product-btn">
+                        <a href="#">
+                            <i class="fas fa-phone"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h1 class="heading">about <span>us</span></h1>
+        <div class="row">
+            <div class="image">
+                <img src="images/about.jpg" alt="Company">
+            </div>
+        <div class="content">
+                <h3>What Is Our Place In The Car Rental Market?</h3>
+                <p>The car rental industry represents a growing market by offering mobile solutions and customer-oriented services. Our company aims to provide reliable unique experiences by strengthening the leader in the industry.</p>
+                <p>We also constantly improve our digital platforms and optimize user experience by investing in technological innovations. By putting the customer first, we aim to exceed a customer's expectations and create a loyal customer base.</p>
+                <p>In summary, at RentCar, we're not just providing transportation; we're facilitating adventures, fostering connections, and empowering our customers to make the most of every journey.</p>
+            
+            <a href="#" class="btn">learn more</a>
+        </div>
+        </div>
+    </section> 
+    
+    <section class="review" id="review">
+        <h1 class="heading">customer's <span>review</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="images/quote.png" alt="quote">
+                <p>As for the car itself, it exceeded my expectations in every way. It was clean, comfortable, and a pleasure to drive, making my trip all the more enjoyable.
+                 </p>
+                <img src="images/avatar.png" alt="avatar" class="user">
+                <h3>Cihan Aykutlug</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/quote.png" alt="quote">
+                <p>One thing that really stood out to me was RentCar's commitment to customer service. They were always available to answer any questions I had.
+               </p>
+                <img src="images/avatar.png" alt="avatar" class="user">
+                <h3>Bruce Wayne</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/quote.png" alt="quote">
+                <p>What truly set RentCar apart, though, was their exceptional service. Every interaction, whether in person or over the phone, was met with professionalism.  
+                </p>
+                <img src="images/avatar.png" alt="avatar" class="user">
+                <h3>Arthur Morgan</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>          
+    </section>
+
+    <section class="contact" id="contact">
+        <h1 class="heading">contact <span>us</span></h1>
+        <div class="row">
+            <iframe
+             class="map"
+             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d95763.18865127467!2d-75.74433496128069!3d41.404500106411604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c4d93a77484bbb%3A0xfff27920ab9bfae8!2sScranton%2C%20Pensilvanya%2C%20Amerika%20Birle%C5%9Fik%20Devletleri!5e0!3m2!1str!2str!4v1715531101015!5m2!1str!2str" width="600"  loading="lazy" referrerpolicy="no-referrer-when-downgrade">               
+            </iframe>
+            <form>
+                <h3>get in touch</h3>
+                <div class="inputBox">
+                    <i class="fas fa-user"></i>
+                    <input type="text" placeholder="Name">              
+                </div>
+                <div class="inputBox">
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" placeholder="Email">              
+                </div>
+                <div class="inputBox">
+                    <i class="fas fa-phone"></i>
+                    <input type="number" placeholder= "Number">              
+                </div>
+                <input type="submit" class="btn" value="contact now">
+            </form>
+        </div>
+    </section>
+     
+    <section class="blogs" id="blogs">
+        <h1 class="heading">our <span>blog</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="images/blog-1.png" alt="blog">
+                </div>                         
+            <div class="content">
+                <a href="#" class="title">What's The Importance Of Customer Satisfaction?</a>
+                <span>By Ceo / 24st may, 2022</span>
+                <p>Hello, today I will tell you about the importance of customer satisfaction.</p>
+                <a href="#" class="btn">read more</a>
+            </div>           
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="images/blog-2.png" alt="blog">
+            </div>                         
+        <div class="content">
+            <a href="#" class="title">How Do We Ensure Vehicle Diversity?</a>
+            <span>By Ceo / 2st march, 2023</span>
+            <p>Vehicle diversity is the indispensable at car rental market.</p>
+                
+            <a href="#" class="btn">read more</a>
+        </div>           
+    </div>
+    <div class="box">
+        <div class="image">
+            <img src="images/blog-3.png" alt="blog">
+        </div>                         
+    <div class="content">
+        <a href="#" class="title">How Do We Maintain The Exotic Cars?</a>
+        <span>By Ceo / 16st january, 2024</span>
+        <p>The exotic cars needs special care and fine work </p>
+        <a href="#" class="btn">read more</a>
+    </div>           
+</div>
+    </section>
+
+    <section class="footer">
+        <div class="search">
+            <input type="text" class="search-input" placeholder="Search">
+            <button class="btn btn-primary">search</button>
+        </div>
+        <div class="share">
+            <a href="https://www.facebook.com/" class="fab fa-facebook"></a>
+            <a href="https://twitter.com/?lang=tr" class="fab fa-twitter"></a>
+            <a href="https://www.instagram.com/" class="fab fa-instagram"></a>
+            <a href="https://tr.linkedin.com/" class="fab fa-linkedin"></a>
+            <a href="https://tr.pinterest.com/" class="fab fa-pinterest"></a>   
+        </div>
+        <div class="links">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#cars">Cars</a>
+            <a href="#staff">Staff</a>
+            <a href="#review">Review</a>
+            <a href="#contact">Contact</a>
+            <a href="#blogs">Blogs</a>
+        </div>
+        <div class="credit">
+            created by <span>Mustafa Güçlü</span> | all rights reserved
+        </div>
+    </section>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
